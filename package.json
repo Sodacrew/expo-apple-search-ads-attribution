@@ -34,7 +34,7 @@
   },
   "homepage": "https://github.com/ethan-park-is/expo-apple-search-ads-attribution#readme",
   "peerDependencies": {
-    "react-native": "^0.61.5",
+    "react-native": "^0.64.3",
     "@expo/config-plugins": "^4.1.1"
   },
   "devDependencies": {
