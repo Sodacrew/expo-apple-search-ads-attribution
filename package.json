@@ -1,6 +1,6 @@
 {
   "name": "expo-apple-search-ads-attribution",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Reads Apple Search Ads Attribution API in iOS on Expo EAS",
   "main": "index.ts",
   "repository": {
@@ -27,13 +27,13 @@
     "iAd",
     "attributionDetails"
   ],
-  "author": "Jeremy Sandor",
+  "author": "Ethan Park",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ethan-park-is/expo-apple-search-ads-attribution/issues"
   },
   "homepage": "https://github.com/ethan-park-is/expo-apple-search-ads-attribution#readme",
-  "peerDependencies": {
+  "dependencies": {
     "react-native": "^0.64.3",
     "@expo/config-plugins": "^4.1.1"
   },
