@@ -1,6 +1,6 @@
 {
   "name": "expo-apple-search-ads-attribution",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reads Apple Search Ads Attribution API in iOS on Expo EAS",
   "main": "index.ts",
   "repository": {
