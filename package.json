@@ -1,11 +1,11 @@
 {
-  "name": "@crowdnautics/react-native-apple-search-ads-attribution",
-  "version": "1.0.2",
-  "description": "Reads Apple Search Ads Attribution API in iOS",
-  "main": "index.js",
+  "name": "expo-apple-search-ads-attribution",
+  "version": "1.0.0",
+  "description": "Reads Apple Search Ads Attribution API in iOS on Expo EAS",
+  "main": "index.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jeremysandor/react-native-apple-search-ads-attribution.git"
+    "url": "git+https://github.com/ethan-park-is/expo-apple-search-ads-attribution"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -30,10 +30,14 @@
   "author": "Jeremy Sandor",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jeremysandor/react-native-apple-search-ads-attribution/issues"
+    "url": "https://github.com/ethan-park-is/expo-apple-search-ads-attribution/issues"
   },
-  "homepage": "https://github.com/jeremysandor/react-native-apple-search-ads-attribution#readme",
+  "homepage": "https://github.com/ethan-park-is/expo-apple-search-ads-attribution#readme",
   "peerDependencies": {
-    "react-native": "^0.61.5"
+    "react-native": "^0.61.5",
+    "@expo/config-plugins": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.67.4"
   }
 }
