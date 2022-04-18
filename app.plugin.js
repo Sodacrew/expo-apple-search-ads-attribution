@@ -1,1 +1,1 @@
-module.exports = require("./build/withAppleAds");
+module.exports = require("./plugins/withAppleAds");
