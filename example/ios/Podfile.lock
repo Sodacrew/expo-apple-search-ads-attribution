@@ -1,7 +1,7 @@
 PODS:
   - boost-for-react-native (1.63.0)
   - DoubleConversion (1.1.6)
-  - expo-apple-search-ads-attribution (0.1.0):
+  - expo-apple-search-ads-attribution (0.1.5):
     - React-Core
   - FBLazyVector (0.63.4)
   - FBReactNativeSpec (0.63.4):
@@ -343,7 +343,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   DoubleConversion: cde416483dac037923206447da6e1454df403714
-  expo-apple-search-ads-attribution: 83dda234cadd3b38ada1b82492e9ba67e866a9a1
+  expo-apple-search-ads-attribution: 8ca2840478b7bca2ffad7ffd59f365b0669c0f55
   FBLazyVector: 3bb422f41b18121b71783a905c10e58606f7dc3e
   FBReactNativeSpec: f2c97f2529dd79c083355182cc158c9f98f4bd6e
   Folly: b73c3869541e86821df3c387eb0af5f65addfab4
