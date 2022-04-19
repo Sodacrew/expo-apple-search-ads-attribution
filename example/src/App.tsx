@@ -1,18 +1,19 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-expo-apple-search-ads-attribution';
+import AppleAdsAttribution from '@sodacrew/expo-apple-search-ads-attribution';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
   React.useEffect(() => {
-    multiply(3, 7).then(setResult);
+    (async function () {
+      const attributionData = await AppleAdsAttribution.getAttributionData();
+      console.log({ attributionData });
+    });
   }, []);
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text>Result: {5}</Text>
     </View>
   );
 }

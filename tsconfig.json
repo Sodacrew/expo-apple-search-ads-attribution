@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "react-native-expo-apple-search-ads-attribution": ["./src/index"]
+      "@sodacrew/expo-apple-search-ads-attribution": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
