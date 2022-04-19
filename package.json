@@ -15,6 +15,7 @@
     "expo-apple-search-ads-attribution.podspec",
     "app.plugin.js",
     "plugin",
+    "!example",
     "!lib/typescript/example",
     "!ios/build",
     "!**/__tests__",
