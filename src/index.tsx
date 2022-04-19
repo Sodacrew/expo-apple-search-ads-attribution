@@ -1,10 +1,10 @@
 import { NativeModules } from 'react-native';
 
-const { RNAppleAdsAttribution } = NativeModules;
+const { ExpoAppleSearchAdsAttribution } = NativeModules;
 
 class AppleAdsAttribution {
   getAttributionData() {
-    return RNAppleAdsAttribution.getAttributionData();
+    return ExpoAppleSearchAdsAttribution.getAttributionData();
   }
 }
 

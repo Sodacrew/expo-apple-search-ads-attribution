@@ -1,6 +1,6 @@
 import 'react-native';
 
-export interface RNAppleSearchAdAttributionData {
+export interface ExpoAppleSearchAdAttributionData {
   [key: string]: {
     'iad-lineitem-name': string;
     'iad-attribution': string;
@@ -24,13 +24,13 @@ export interface RNAppleSearchAdAttributionData {
   };
 }
 
-export interface RNAppleSearchAdAttributionInterface {
-  getAttributionData: () => Promise<RNAppleSearchAdAttributionData | null>;
+export interface ExpoAppleSearchAdAttributionInterface {
+  getAttributionData: () => Promise<ExpoAppleSearchAdAttributionData | null>;
 }
 
 // and extend them!
 declare module 'react-native' {
   interface NativeModulesStatic {
-    RNAppleAdsAttribution: RNAppleSearchAdAttributionInterface;
+    ExpoAppleSearchAdsAttribution: ExpoAppleSearchAdAttributionInterface;
   }
 }
