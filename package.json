@@ -1,0 +1,49 @@
+{
+  "name": "@sodacrew/expo-apple-search-ads-attribution",
+  "version": "1.0.0",
+  "description": "Easier Setup for Apple Search Ads Attribution API for EXPO EAS / React Native",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "dependencies": {
+    "@expo/config-plugins": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.67.4"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sodacrew/expo-apple-search-ads-attribution.git"
+  },
+  "keywords": [
+    "EXPO",
+    "EAS",
+    "config plugin",
+    "react-component",
+    "react-components",
+    "react",
+    "native",
+    "react-native",
+    "ios",
+    "component",
+    "apple",
+    "search",
+    "ads",
+    "attribution",
+    "API",
+    "iAd",
+    "attributionDetails"
+  ],
+  "author": "Ethan Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sodacrew/expo-apple-search-ads-attribution/issues"
+  },
+  "homepage": "https://github.com/Sodacrew/expo-apple-search-ads-attribution#readme"
+}

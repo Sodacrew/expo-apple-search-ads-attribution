@@ -12,4 +12,3 @@ var AppleAdsAttribution = /** @class */ (function () {
 }());
 var AppleAdsAttributionInstance = new AppleAdsAttribution();
 exports.default = AppleAdsAttributionInstance;
-//# sourceMappingURL=index.js.map
