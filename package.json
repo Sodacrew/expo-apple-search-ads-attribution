@@ -1,5 +1,5 @@
 {
-  "name": "react-native-expo-apple-search-ads-attribution",
+  "name": "@sodacrew/expo-apple-search-ads-attribution",
   "version": "0.1.0",
   "description": "Ethan Park",
   "main": "lib/commonjs/index",
@@ -10,12 +10,10 @@
   "files": [
     "src",
     "lib",
-    "android",
     "ios",
     "cpp",
-    "react-native-expo-apple-search-ads-attribution.podspec",
+    "expo-apple-search-ads-attribution.podspec",
     "!lib/typescript/example",
-    "!android/build",
     "!ios/build",
     "!**/__tests__",
     "!**/__fixtures__",
@@ -33,16 +31,15 @@
   },
   "keywords": [
     "react-native",
-    "ios",
-    "android"
+    "ios"
   ],
-  "repository": "https://github.com/sodacrew/react-native-expo-apple-search-ads-attribution",
+  "repository": "https://github.com/sodacrew/expo-apple-search-ads-attribution",
   "author": "Ethan <ethan.park@sodacrew.com> (https://github.com/sodacrew)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sodacrew/react-native-expo-apple-search-ads-attribution/issues"
+    "url": "https://github.com/sodacrew/expo-apple-search-ads-attribution/issues"
   },
-  "homepage": "https://github.com/sodacrew/react-native-expo-apple-search-ads-attribution#readme",
+  "homepage": "https://github.com/sodacrew/expo-apple-search-ads-attribution#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
