@@ -1,4 +1,5 @@
 #import "ExpoAppleSearchAdsAttribution.h"
+#import <iAd/iAd.h>
 
 @implementation ExpoAppleSearchAdsAttribution
 
