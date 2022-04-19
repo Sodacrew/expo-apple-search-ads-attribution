@@ -8,7 +8,7 @@ target 'ExpoAppleSearchAdsAttributionExample' do
 
   use_react_native!(:path => config["reactNativePath"])
 
-  pod 'react-native-expo-apple-search-ads-attribution', :path => '../..'
+  pod 'expo-apple-search-ads-attribution', :path => '../..'
 
   # Enables Flipper.
   #
