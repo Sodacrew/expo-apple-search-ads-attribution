@@ -6,7 +6,7 @@ const {
 
 const frameWorkToAdd = 'iAd.framework';
 
-const pkg = require('@sodacrew/expo-apple-search-ads-attribution/package.json');
+const pkg = require('../package.json');
 
 async function addIAdFramework(config) {
   const { projectRoot } = config.modRequest;
