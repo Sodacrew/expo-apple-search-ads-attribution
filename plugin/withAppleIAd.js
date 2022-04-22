@@ -4,9 +4,9 @@ const {
   createRunOncePlugin,
 } = require('@expo/config-plugins');
 
-const frameWorkToBeAdded = ['iAd.framework'];
+const frameWorkToAdd = 'iAd.framework';
 
-const pkg = require('expo-apple-search-ads-attribution/package.json');
+const pkg = require('@sodacrew/expo-apple-search-ads-attribution/package.json');
 
 async function addIAdFramework(config) {
   const { projectRoot } = config.modRequest;
@@ -15,12 +15,10 @@ async function addIAdFramework(config) {
 
   const projectName = IOSConfig.XcodeUtils.getProjectName(projectRoot);
 
-  frameWorkToBeAdded.forEach((framework) => {
-    IOSConfig.XcodeUtils.addFramework({
-      project: xcodeProject,
-      projectName,
-      framework,
-    });
+  IOSConfig.XcodeUtils.addFramework({
+    project: xcodeProject,
+    projectName,
+    framework: frameWorkToAdd,
   });
   return config;
 }
