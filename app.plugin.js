@@ -1,1 +1,1 @@
-module.exports = require('./plugin/withAppleIAd');
+module.exports = require('./plugin/withAppleSearchAttribution');
