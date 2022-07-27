@@ -1,6 +1,6 @@
 {
   "name": "@sodacrew/expo-apple-search-ads-attribution",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Ethan Park",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",

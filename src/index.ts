@@ -6,6 +6,15 @@ class AppleAdsAttribution {
   getAttributionData() {
     return ExpoAppleSearchAdsAttribution.getAttributionData();
   }
+  getiAdAttributionData() {
+    return ExpoAppleSearchAdsAttribution.getiAdAttributionData();
+  }
+  getAdServicesAttributionToken() {
+    return ExpoAppleSearchAdsAttribution.getAdServicesAttributionToken();
+  }
+  getAdServicesAttributionData() {
+    return ExpoAppleSearchAdsAttribution.getAdServicesAttributionData();
+  }
 }
 
 const AppleAdsAttributionInstance = new AppleAdsAttribution();

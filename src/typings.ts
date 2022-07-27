@@ -1,6 +1,17 @@
 import 'react-native';
 
-export interface ExpoAppleSearchAdAttributionData {
+export interface ExpoAdServicesAttributionData {
+  keywordId: number;
+  campaignId: number;
+  conversionType: string;
+  creativeSetId: number;
+  orgId: number;
+  countryOrRegion: string;
+  adGroupId: number;
+  clickDate: string;
+  attribution: boolean;
+}
+export interface ExpoIadAdAttributionData {
   [key: string]: {
     'iad-lineitem-name': string;
     'iad-attribution': string;
@@ -24,13 +35,18 @@ export interface ExpoAppleSearchAdAttributionData {
   };
 }
 
-export interface ExpoAppleSearchAdAttributionInterface {
-  getAttributionData: () => Promise<ExpoAppleSearchAdAttributionData | null>;
+export interface ExpoAppleSearchAdsAttributionInterface {
+  getAttributionData: () => Promise<
+    ExpoIadAdAttributionData | ExpoAdServicesAttributionData
+  >;
+  getiAdAttributionData: () => Promise<ExpoIadAdAttributionData>;
+  getAdServicesAttributionToken: () => Promise<string>;
+  getAdServicesAttributionData: () => Promise<ExpoAdServicesAttributionData>;
 }
 
 // and extend them!
 declare module 'react-native' {
   interface NativeModulesStatic {
-    ExpoAppleSearchAdsAttribution: ExpoAppleSearchAdAttributionInterface;
+    ExpoAppleSearchAdsAttribution: ExpoAppleSearchAdsAttributionInterface;
   }
 }
