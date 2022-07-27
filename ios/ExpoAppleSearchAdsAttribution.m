@@ -105,14 +105,14 @@ API_AVAILABLE(ios(14.3)) {
  * Returns nil if token couldn't be generated.
  */
 + (NSString *) getAdServicesAttributionToken:(NSError * _Nullable *)error {
-    // if([ExpoAppleSearchAdsAttribution isSimulator]) {
-    //     if (error != NULL) {
-    //         NSMutableDictionary* details = [NSMutableDictionary dictionary];
-    //         [details setValue:@"Error getting token, not available in Simulator" forKey:NSLocalizedDescriptionKey];
-    //         *error = [NSError errorWithDomain:RNAAAErrorDomain code:100 userInfo:details];
-    //     }
-    //     return nil;
-    // }
+    if([ExpoAppleSearchAdsAttribution isSimulator]) {
+        if (error != NULL) {
+            NSMutableDictionary* details = [NSMutableDictionary dictionary];
+            [details setValue:@"Error getting token, not available in Simulator" forKey:NSLocalizedDescriptionKey];
+            *error = [NSError errorWithDomain:RNAAAErrorDomain code:100 userInfo:details];
+        }
+        return nil;
+    }
 
     if (@available(iOS 14.3, *))
     {
